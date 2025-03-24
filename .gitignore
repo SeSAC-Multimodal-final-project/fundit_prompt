@@ -1,3 +1,5 @@
+echo "api.env" >> .gitignore
+
 api.env
 
 *.py[cod]
