@@ -18,7 +18,7 @@ top3_fields = list({item["서비스분야"] for item in top_15[:3] if "서비스
 print("🟦 Top3 분야 태그:", top3_fields)
 
 for i, item in enumerate(top_15, 1):
-    print(f"{i}. {item['서비스명']} ⭐")
+    print(f"{i}. {item['서비스명']}")
     print(f"서비스 ID: {item['정책ID']}")
     print(item['지원내용'])
     print()
